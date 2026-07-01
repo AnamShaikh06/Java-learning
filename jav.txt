@@ -1,0 +1,63 @@
+jdk : java developemnt kit:  tool kit requires to run the java program on system.
+
+jdk= jre+jvm
+
+jvm + libraries = jre
+jre + development tools = jdk
+
+two ways java code runs:
+1.compilation : source code(.java) then jdk converts it in byte code(.class)
+2. execution : byte code(.class) then jvm converts to native code(machine knows: eg:0,1)
+
+
+**Byte code we can run in any system provided that it contains jre
+
+
+**Datatypes:
+1. Primitive: byte,short,char,boolean,int,long,float,double
+2. Non-Primitive: String,Array,Class,Object,Interface
+
+
+next(): takes 1 token means only one word
+nextLine(): takes the whole sentence as input
+nextInt(): take integer
+
+
+**if else:
+if (cond){}
+else if(){}
+else{}
+
+
+**switch case:
+
+switch(variable){
+    case 1:
+    ///
+    break;
+    case 2:
+    break;
+    default:
+    
+}
+
+for loop:
+
+for(ini;condi;incre/decre){
+
+}
+
+while:
+
+while(condi){
+
+}
+
+dowhile:
+do{}
+while(condi)
+
+
+* in java is only for numeric multiplication but not for 
+"*" * 4  is wrong
+"*" .repeat(4)
