@@ -157,5 +157,64 @@ public class Cpattern {
         
         
         //Diamond pattern
+        for (int i=1;i<=4;i++){
+            System.out.print(" ".repeat(4-i));
+            System.out.print("*".repeat(i));
+            if(i!=1){
+                System.out.print("*".repeat(i-1));
+            }
+            System.out.println();
+        }
+        int st=3;
+        for(int i=4;i>=1;i--){
+            if (i!=4){
+                System.out.print(" ".repeat(4-i));
+            }
+            System.out.print("*".repeat(i));
+            System.out.print("*".repeat((st)));
+            st-=1;
+            System.out.println();
+        }
+        System.out.println("\n\n");
+        
+        int ho=8;
+        //Hollow butterfly
+        for(int i=1;i<=5;i++){
+            System.out.print("*");
+            if (i!=1 && i!=2){
+                System.out.print(" ".repeat(i-3+1));
+            }
+            if (i!=1){
+            System.out.print("*");}
+            System.out.print(" ".repeat(ho));
+            ho-=2;
+            System.out.print("*");
+            if (i!=1 && i!=2){
+                System.out.print(" ".repeat(i-3+1));
+            }
+            if (i!=1){
+                System.out.print("*");}
+            System.out.println();
+        }
+
+        ho+=2;
+        for(int i=5;i>=1;i--){
+            System.out.print("*");
+            if (i!=1 && i!=2){
+                System.out.print(" ".repeat(i-3+1));
+            }
+            if (i!=1){
+            System.out.print("*");}
+            System.out.print(" ".repeat(ho));
+            ho+=2;
+            System.out.print("*");
+            if (i!=1 && i!=2){
+                System.out.print(" ".repeat(i-3+1));
+            }
+            if (i!=1){
+                System.out.print("*");}
+            System.out.println();
+        }
+
     }
 }
