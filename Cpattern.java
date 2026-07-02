@@ -215,6 +215,12 @@ public class Cpattern {
                 System.out.print("*");}
             System.out.println();
         }
+        System.out.println("\n\n");
 
+        //Hollow rhombus
+        for(int i=1;i<=5;i++){
+            if (i==1 && i==5){
+            System.out.print("*".repeat());}
+        }
     }
 }
