@@ -219,8 +219,31 @@ public class Cpattern {
 
         //Hollow rhombus
         for(int i=1;i<=5;i++){
-            if (i==1 && i==5){
-            System.out.print("*".repeat());}
+            System.out.print(" ".repeat(5-i));
+            System.out.print("*");
+            if (i==1 || i==5){
+                System.out.print("*".repeat(3));}
+            else{
+                System.out.print(" ".repeat(3));
+            }
+            System.out.print("*");
+            System.out.println();
+        }
+        System.out.println("\n\n");
+
+        //Pascals triangle
+        int num=11;
+        for(int i=1;i<=6;i++){
+            System.out.print(" ".repeat(6-i));
+            if (i==1){
+                System.out.print(1);
+            }
+            else{
+                System.out.print(num);
+                num*=11;
+            }
+           System.out.println();
+            
         }
     }
 }
