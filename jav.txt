@@ -61,3 +61,16 @@ while(condi)
 * in java is only for numeric multiplication but not for 
 "*" * 4  is wrong
 "*" .repeat(4)
+
+
+**function:
+
+returntype functioname(type arg1,type arg){
+
+}
+function stored in a memory are in the form of stack
+camelcase: myNameIsAnam
+
+***functions are called directly whereas methods are called with the help
+of class objects.
+

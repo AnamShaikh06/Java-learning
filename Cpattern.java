@@ -245,5 +245,24 @@ public class Cpattern {
            System.out.println();
             
         }
+        System.out.println("\n\n");
+        
+        //Half number Pyramid
+        for(int i=1;i<=5;i++){
+           System.out.print(" ".repeat(5-i));
+            for (int j=1;j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+        System.out.println("\n\n");
+
+        //Inverted Half number
+        int bg=5;
+        for(int i=1;i<=5;i++){
+            System.out.print(Integer.toString(i).repeat(bg));
+            bg-=1;
+            System.out.println();
+        }
     }
 }
