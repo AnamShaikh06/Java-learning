@@ -74,3 +74,10 @@ camelcase: myNameIsAnam
 ***functions are called directly whereas methods are called with the help
 of class objects.
 
+**new keyword: it is used to allocate a new space inside the memory
+
+**Array:
+type[] arrayName =new type[size];
+eg: if size of array is 3 and it is of intger array
+then in memory it takes 4*3=12bytes of space in total.
+
