@@ -81,3 +81,28 @@ type[] arrayName =new type[size];
 eg: if size of array is 3 and it is of intger array
 then in memory it takes 4*3=12bytes of space in total.
 
+if we already know the size of array then we can define it like this
+
+type [] arrayname={1,2,3,5};
+
+**Null:
+by default if we create a variable then it stores null in java
+like for obj it stores null, int stores 0, float stores 0.0, boolean false, string ""
+
+**size of array:  arrayname.length
+
+**max and min:
+Integer.MAX_VALUE: stores max int value ie 2^31 -1
+Integer.MIN_VALUE: stores min value ie -2^31
+
+**2D array:
+memory space of 2D array
+if we have 3*5 array of integer type: then space will be of  3*5*4=60bytes 
+
+type[][] arrayname=new type[rows][col]
+
+
+**String:
+stringname.length()= print the length of string
+stringmame.chartAt(index)= give the character present at that index
+ 
