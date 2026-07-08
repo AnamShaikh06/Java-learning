@@ -102,7 +102,7 @@ if we have 3*5 array of integer type: then space will be of  3*5*4=60bytes
 type[][] arrayname=new type[rows][col]
 
 
-**String:
+**String: immutable (not modifiable)
 stringname.length()= print the length of string
 stringmame.chartAt(index)= give the character present at that index
 
