@@ -105,4 +105,13 @@ type[][] arrayname=new type[rows][col]
 **String:
 stringname.length()= print the length of string
 stringmame.chartAt(index)= give the character present at that index
- 
+
+string1.compare(string2): to compare the string 
+if string1<string2: print +ve value
+if string1>string2: print -ve value
+if equal the prints 0
+
+it compare character by character in both the string and if found greater one than that string wins
+
+
+**substring(begin index,end index): like slicing in python
