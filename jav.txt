@@ -115,3 +115,6 @@ it compare character by character in both the string and if found greater one th
 
 
 **substring(begin index,end index): like slicing in python
+**parseint method of integer class:
+String stri="123";
+Integer.parseInt(stri);
