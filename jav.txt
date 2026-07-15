@@ -118,3 +118,29 @@ it compare character by character in both the string and if found greater one th
 **parseint method of integer class:
 String stri="123";
 Integer.parseInt(stri);
+
+**in java if 
+eg: st="ab";
+then st is stored in stack
+and "ab" string is stored in a heap 
+st points to heap memory that stores "ab"
+and if we update and add "c" to "abc"
+then that st will now point to "abc"
+
+so we need (string builder) in this.
+StringBuilder class is used for it .
+
+
+***String functions:
+1. str.length()
+2. str.charAt(index)
+3. str.substring(st,end)
+
+
+***StringBuilder functions:
+1. sb.charAt(index)
+2. sb.setCharAt(index,char)
+3. sb.insert(index,char)
+4. sb.delete(startindex,endindex) exclusive in endindex
+5. sb.append("str")
+
