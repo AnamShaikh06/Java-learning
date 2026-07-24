@@ -151,4 +151,11 @@ StringBuilder class is used for it .
 4.update : to update 1 to 0 or 0 to 1
 
 *we goes from right to left in this
-*bit mask: process to perform various bit operations
+*bit manipulation: process to perform various bit operations
+*bit mask: additional number that is require to perform the operation
+
+**GET : 1.Bit mask: 1<<i(position)
+        2:AND operation with the number (n)
+**SET : 1:Bit mask: 1<<i(position)
+        2:OR operation with the number (n)
+       
